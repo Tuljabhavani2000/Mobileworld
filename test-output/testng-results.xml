@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-16T15:45:23 IST" name="Default suite" finished-at="2022-09-16T15:45:28 IST" duration-ms="4536">
+  <suite started-at="2022-09-19T10:39:42 IST" name="Default suite" finished-at="2022-09-19T10:39:58 IST" duration-ms="16267">
     <groups>
     </groups>
-    <test started-at="2022-09-16T15:45:23 IST" name="Default test" finished-at="2022-09-16T15:45:28 IST" duration-ms="4536">
-      <class name="mobileworld1.Signin">
-        <test-method signature="register()[pri:0, instance:mobileworld1.Signin@3059cbc]" started-at="2022-09-16T15:45:23 IST" name="register" finished-at="2022-09-16T15:45:28 IST" duration-ms="4501" status="PASS">
+    <test started-at="2022-09-19T10:39:42 IST" name="Default test" finished-at="2022-09-19T10:39:58 IST" duration-ms="16267">
+      <class name="AutomationScripts.contactus">
+        <test-method signature="contactuslandingpage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationScripts.contactus@4a7f959b]" started-at="2022-09-19T10:39:42 IST" name="contactuslandingpage" data-provider="contactus" finished-at="2022-09-19T10:39:50 IST" duration-ms="8638" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tuljabhavani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[tuljauppin.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[767863565478]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[hi world]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- register -->
-      </class> <!-- mobileworld1.Signin -->
+        </test-method> <!-- contactuslandingpage -->
+        <test-method signature="contactuslandingpage(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:AutomationScripts.contactus@4a7f959b]" started-at="2022-09-19T10:39:50 IST" name="contactuslandingpage" data-provider="contactus" finished-at="2022-09-19T10:39:58 IST" duration-ms="7586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bhavani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[bhavani@gmail.com]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[756556445454]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Hi India]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactuslandingpage -->
+      </class> <!-- AutomationScripts.contactus -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
